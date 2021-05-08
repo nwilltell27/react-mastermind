@@ -1,7 +1,7 @@
 import GuessPeg from '../GuessPeg/GuessPeg';
 
 const GuessPegs = (props) => (
-    <div className="component" id="">
+    <div className="component" id="guessPegs">
         GuessPegs
         <GuessPeg />
         <GuessPeg />

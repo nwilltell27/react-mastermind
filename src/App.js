@@ -11,10 +11,14 @@ function App() {
       <header className="App-header">
         React Mastermind
       </header>
-      <GameBoard />
-      <ColorPicker />
-      <GameTimer />
-      <NewGameButton />
+      <div className="gameBody">
+        <GameBoard />
+        <div>
+          <ColorPicker />
+          <GameTimer />
+          <NewGameButton />
+        </div>
+      </div>
       <Footer />
     </div>
   );
